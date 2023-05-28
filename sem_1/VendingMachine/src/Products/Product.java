@@ -4,13 +4,15 @@ public class Product {
     private int productId;
     private String productName;
     private String productCategory;
-    private Double price;
+    private double price;
+   
 
-    public Product(int productId,String productName,String productCategory, Double price){
+    public Product(int productId,String productName,String productCategory, double price){
         this.productId = productId;
         this.productName = productName;
         this.productCategory = productCategory;
         this.price = price;
+        
         }
 
         public int getProductId() {
@@ -36,6 +38,7 @@ public class Product {
         public double getPrice() {
           return price;
         }
+        
 
         public void setPrice(double price) {
           if(price <= 0){
