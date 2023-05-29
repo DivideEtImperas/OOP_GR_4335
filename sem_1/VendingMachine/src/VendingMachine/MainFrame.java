@@ -16,10 +16,16 @@ public class MainFrame extends JFrame{
    
 
     public void initialize() {
-      
-        DefaultListModel<String> l = new DefaultListModel< >();
-        l.addElement("first item");
+        
+        
+        DefaultListModel<String> l = new DefaultListModel<String>();
+        
+        
+        l.addElement("");
         l.addElement("second item");
+        
+       
+        
         JList<String> b = new JList< >(l);
         
         b.setBounds(100,100,75,75);
@@ -90,12 +96,16 @@ public class MainFrame extends JFrame{
         setMaximumSize(new Dimension(300, 400));
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+        
     }
+   
 
     public static void main(String[] arg)
     {
         MainFrame myFrame = new MainFrame();
         myFrame.initialize();
+        
+        
     }
 
-}
+    }

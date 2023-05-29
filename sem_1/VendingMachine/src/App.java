@@ -1,6 +1,7 @@
 import Products.Bottle;
 import Products.HotDrink;
 import Products.Product;
+import VendingMachine.MainFrame;
 import VendingMachine.VendingMachine;
 
 public class App {
@@ -16,8 +17,14 @@ public class App {
         iMachine.addProduct(new Bottle(4, "Water", "Water", 25 ,1500));
         iMachine.addProduct(new HotDrink(5,"Coffee","Drinks",25,60));
         iMachine.addProduct(new HotDrink(6,"Tea","Drinks",15,60));
+        
         for(Product prod:iMachine.getProducts()){
             System.out.println(prod.toString());
         }
+
+       
+
+        
+        
     }
 }

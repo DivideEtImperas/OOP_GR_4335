@@ -7,10 +7,12 @@ import Products.Product;
 public class VendingMachine {
   private int volume;
   private List<Product> products;
+  
 
   public VendingMachine(int volume) {
     this.volume = volume;
     products = new ArrayList<Product>();
+    
   }
   public int getVolume() {
     return volume;
@@ -18,6 +20,7 @@ public class VendingMachine {
   public void setVolume(int volume) {
     this.volume = volume;
   }
+ 
   public List<Product> getProducts() {
     return products;
   }

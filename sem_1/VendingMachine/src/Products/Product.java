@@ -1,12 +1,21 @@
 package Products;
 
+/**
+ * Class Product
+ */
 public class Product {
     private int productId;
     private String productName;
     private String productCategory;
     private double price;
    
-
+    /**
+     * 
+     * @param productId       id продукта
+     * @param productName     название продукта
+     * @param productCategory категория продукта
+     * @param price           цена продукта
+     */
     public Product(int productId,String productName,String productCategory, double price){
         this.productId = productId;
         this.productName = productName;
@@ -27,9 +36,9 @@ public class Product {
           return productName;
         }
 
-        // public void setProductName(String productName) {
-        //   this.productName = productName;
-        // }
+        public void setProductName(String productName) {
+          this.productName = productName;
+        }
 
         public String getProductCategory() {
           return productCategory;
