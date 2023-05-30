@@ -23,39 +23,39 @@ public class Product {
         this.price = price;
         
         }
-
+        // Метод получения Id
         public int getProductId() {
           return productId;
         }
-
+        // Метод присвоения Id
         public void setProductId(int productId){
           this.productId = productId;
         }
-
+        // Метод получения имени продукта
         public String getProductName(){
           return productName;
         }
-
+        // Метод присвоения имени продукта
         public void setProductName(String productName) {
           this.productName = productName;
         }
-
+        // Метод получения категории продукта
         public String getProductCategory() {
           return productCategory;
         }
-
+        // Метод получения цены продукта
         public double getPrice() {
           return price;
         }
         
-
+        // Метод присвоения цены продукта
         public void setPrice(double price) {
           if(price <= 0){
               throw new IllegalStateException(String.format("Цена указана некорректно!", price));
           }
           this.price = price;
         }
-
+        // переопределение метода базового класса
         @Override
         public String toString(){
           return "Product{" + 

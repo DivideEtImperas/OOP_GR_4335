@@ -1,13 +1,13 @@
 package Products;
-
+ // Класс Bottle наследник класса Product
 public class Bottle extends Product {
   private int volume;
 
   /**
    * Create a product
-   * @param productId  
-   * @param productName
-   * @param productCategory
+   * @param productId    
+   * @param productName  
+   * @param productCategory 
    * @param price
    * @throws Exception  
    */
