@@ -1,7 +1,6 @@
 import Products.Bottle;
 import Products.HotDrink;
 import Products.Product;
-import VendingMachine.MainFrame;
 import VendingMachine.VendingMachine;
 
 public class App {

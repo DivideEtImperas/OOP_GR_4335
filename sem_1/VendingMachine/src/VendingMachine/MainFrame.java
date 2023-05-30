@@ -16,20 +16,19 @@ public class MainFrame extends JFrame{
    
 
     public void initialize() {
+   
+        DefaultListModel<Product> l = new DefaultListModel<Product>();
         
         
-        DefaultListModel<String> l = new DefaultListModel<String>();
+       l.addElement(new Product(1,"Cola","Drinks",50));
+       l.addElement(new Product(2, "Чипсы", "Snaks", 35));
+       l.addElement(new Product(3, "Coffee", "HotDrinks", 40));
+       l.addElement(new Product(4, "Tea", "HotDrinks", 20));
         
-        
-        l.addElement("");
-        l.addElement("second item");
-        
-       
-        
-        JList<String> b = new JList< >(l);
+        JList<Product> b = new JList<Product>(l);
         
         b.setBounds(100,100,75,75);
-        b.setVisible(false);
+        b.setVisible(true);
         
         JPanel formPanel = new JPanel();
         formPanel.setLayout(new GridLayout(4, 1, 5, 5));
@@ -48,14 +47,14 @@ public class MainFrame extends JFrame{
 
         });
 
-       // Кнопка "Список товаров"
-        JButton btnLProduct = new JButton("Список товаров");
+       // Кнопка "$ money"
+        JButton btnLProduct = new JButton("$ money");
         btnLProduct.setFont(mainFont);
         btnLProduct.addActionListener(new ActionListener() {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                b.setVisible(true);
+               
                 
                     // Действие
 
@@ -71,7 +70,7 @@ public class MainFrame extends JFrame{
         buttonPanel.add(btnLProduct);
         
 
-        // Паанель продуктов
+        // Панель продуктов
        
         JPanel mainPanel = new JPanel();
       

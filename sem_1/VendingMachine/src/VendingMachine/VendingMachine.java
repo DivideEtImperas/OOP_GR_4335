@@ -12,7 +12,6 @@ public class VendingMachine {
   public VendingMachine(int volume) {
     this.volume = volume;
     products = new ArrayList<Product>();
-    
   }
   public int getVolume() {
     return volume;
