@@ -2,62 +2,78 @@ package Classes;
 
 public class SpecialClient extends Actor {
 
-    private int idVIP;
-    
-    public SpecialClient(String name, int idVIP) {
-        super(name);
-        this.idVIP = idVIP;
-    }
+  private int idVIP;
 
-    public int getId() {
-        return idVIP;
-    }
+  /**
+   * Конструктор класса SpecialClient
+   * 
+   * @param name  имя
+   * @param idVIP уник. номер
+   */
+  public SpecialClient(String name, int idVIP) {
+    super(name);
+    this.idVIP = idVIP;
+  }
 
-    @Override
-    public String getName() {
-        return super.name;
-    }
+  // получить уник. номер
+  public int getId() {
+    return idVIP;
+  }
 
-    public boolean isTakeOrder() {
-      return super.isTakeOrder;
-    }
+  // получение имени
+  @Override
+  public String getName() {
+    return super.name;
+  }
 
-    public boolean isMakeOrder() {
-      return super.isMakeOrder;
-    }
+  // сделать заказ
+  public boolean isTakeOrder() {
+    return super.isTakeOrder;
+  }
 
-    public void setTakeOrder(boolean makeOder) {
-      super.isMakeOrder = makeOder;
-    }
-    
-    public void setMakeOrder(boolean pikUpOrder) {
-      super.isTakeOrder = pikUpOrder;
-    }
-    public void setMakeDiscount(boolean makeDiscount) {
-      super.isMakeDiscount = makeDiscount;
-     
-    }
-   
-    public void setTakeDiscount(boolean takeDiscount) {
-      super.isTakeDiscount = takeDiscount;
-    }
-    
-    public boolean isMakeDiscount() {
-      return super.isMakeDiscount;
-    }
-    
-    public boolean isTakeDiscount() {
-     return super.isTakeDiscount;
-    }
-    public boolean isReturnOrder() {
+  // получить заказ
+  public boolean isMakeOrder() {
+    return super.isMakeOrder;
+  }
+
+  // инициализация получения заказа
+  public void setTakeOrder(boolean makeOder) {
+    super.isMakeOrder = makeOder;
+  }
+
+  // инициализация выполнения заказа
+  public void setMakeOrder(boolean pikUpOrder) {
+    super.isTakeOrder = pikUpOrder;
+  }
+
+  // инициализация выполнения заказа
+  public void setMakeDiscount(boolean makeDiscount) {
+    super.isMakeDiscount = makeDiscount;
+
+  }
+
+  // инициализация получения заказа
+  public void setTakeDiscount(boolean takeDiscount) {
+    super.isTakeDiscount = takeDiscount;
+  }
+
+  // сделать скидку
+  public boolean isMakeDiscount() {
+    return super.isMakeDiscount;
+  }
+
+  // получить скидку
+  public boolean isTakeDiscount() {
+    return super.isTakeDiscount;
+  }
+
+  // возврат заказа
+  public boolean isReturnOrder() {
     return super.isReturnOrder;
   }
 
-    public Actor getActor() {
-      return this;
-    }
+  public Actor getActor() {
+    return this;
+  }
 
-   
-
-  
 }
