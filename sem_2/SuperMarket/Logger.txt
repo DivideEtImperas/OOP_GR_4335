@@ -1,0 +1,82 @@
+июн. 01, 2023 11:41:28 PM Classes.Market <init>
+INFO: StartLogger
+июн. 01, 2023 11:41:28 PM Classes.Market acceptToMarket
+INFO: Boris клиент пришел в магазин 
+июн. 01, 2023 11:41:28 PM Classes.Market takeInQueue
+INFO: Boris клиент добавлен в очередь 
+июн. 01, 2023 11:41:28 PM Classes.Market acceptToMarket
+INFO: Dasha клиент пришел в магазин 
+июн. 01, 2023 11:41:28 PM Classes.Market takeInQueue
+INFO: Dasha клиент добавлен в очередь 
+июн. 01, 2023 11:41:28 PM Classes.Market acceptToMarket
+INFO: Prezident клиент пришел в магазин 
+июн. 01, 2023 11:41:28 PM Classes.Market takeInQueue
+INFO: Prezident клиент добавлен в очередь 
+июн. 01, 2023 11:41:28 PM Classes.Market acceptToMarket
+INFO: Tax audit клиент пришел в магазин 
+июн. 01, 2023 11:41:28 PM Classes.Market takeInQueue
+INFO: Tax audit клиент добавлен в очередь 
+июн. 01, 2023 11:41:28 PM Classes.Market acceptToMarket
+INFO: Dmitry клиент пришел в магазин 
+июн. 01, 2023 11:41:28 PM Classes.Market takeInQueue
+INFO: Dmitry клиент добавлен в очередь 
+июн. 01, 2023 11:41:28 PM Classes.Market takeOrder
+INFO: Boris клиент сделал заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market takeOrder
+INFO: Dasha клиент сделал заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market takeOrder
+INFO: Prezident клиент сделал заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market takeOrder
+INFO: Tax audit клиент сделал заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market takeOrder
+INFO: Dmitry клиент сделал заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market giveDiscount
+INFO: Boris клиент получил скидку 
+июн. 01, 2023 11:41:28 PM Classes.Market giveDiscount
+INFO: Dasha клиент получил скидку 
+июн. 01, 2023 11:41:28 PM Classes.Market giveDiscount
+INFO: Prezident клиент получил скидку 
+июн. 01, 2023 11:41:28 PM Classes.Market giveDiscount
+INFO: Tax audit клиент получил скидку 
+июн. 01, 2023 11:41:28 PM Classes.Market giveDiscount
+INFO: Dmitry клиент получил скидку 
+июн. 01, 2023 11:41:28 PM Classes.Market returnOrder
+INFO: Boris клиент вернул свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market returnOrder
+INFO: Dasha клиент вернул свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market returnOrder
+INFO: Prezident клиент вернул свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market returnOrder
+INFO: Tax audit клиент вернул свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market returnOrder
+INFO: Dmitry клиент вернул свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market giveOrder
+INFO: Boris клиент получил свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market giveOrder
+INFO: Dasha клиент получил свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market giveOrder
+INFO: Prezident клиент получил свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market giveOrder
+INFO: Tax audit клиент получил свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market giveOrder
+INFO: Dmitry клиент получил свой заказ 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromQueue
+INFO: Boris клиент ушел из очереди 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromQueue
+INFO: Dasha клиент ушел из очереди 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromQueue
+INFO: Prezident клиент ушел из очереди 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromQueue
+INFO: Tax audit клиент ушел из очереди 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromQueue
+INFO: Dmitry клиент ушел из очереди 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromMarket
+INFO: Boris клиент ушел из магазина 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromMarket
+INFO: Dasha клиент ушел из магазина 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromMarket
+INFO: Prezident клиент ушел из магазина 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromMarket
+INFO: Tax audit клиент ушел из магазина 
+июн. 01, 2023 11:41:28 PM Classes.Market releaseFromMarket
+INFO: Dmitry клиент ушел из магазина 

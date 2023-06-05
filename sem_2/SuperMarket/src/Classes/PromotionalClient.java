@@ -72,7 +72,7 @@ public class PromotionalClient extends Actor {
   public boolean isReturnOrder() {
     return super.isReturnOrder;
   }
-
+  // возвращает саммого себя
   public Actor getActor() {
     return this;
   }
