@@ -45,20 +45,21 @@ public class App {
         listStud2.add(s10);
         listStud2.add(s11);
         
-
+        // Создаем группы
         StudentGroup group4335 = new StudentGroup(listStud1, 4335,6);
         // System.out.println(group4335.toString());
         StudentGroup group2535 = new StudentGroup(listStud2, 2535,5);
         // System.out.println(group2535.toString());
-
-        for(Student stud:group4335)
-        {
-            System.out.println(stud.toString());
-            // Collections.sort(group4335.getGroup());
-        }
-        System.out.println("===============================");
-        Collections.sort(group4335.getGroup());
-
+        
+        // for(Student stud:group4335)
+        // {
+        //     System.out.println(stud.toString());
+        //     // Collections.sort(group4335.getGroup());
+        // }
+        // System.out.println("===============================");
+        // Collections.sort(group4335.getGroup());
+        
+        // Добавляем группы в поток 
         List<StudentGroup> teams = new ArrayList<StudentGroup>();
         teams.add(group2535);
         teams.add(group4335);
