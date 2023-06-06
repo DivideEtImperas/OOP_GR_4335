@@ -5,7 +5,7 @@ import java.util.List;
 
 
 
-public class StudentsTeam implements Iterable<StudentGroup>{
+public class StudentsTeam implements Iterable<StudentGroup>/*,Comparable<StudentsTeam>*/{
   private List<StudentGroup>team;
   private int teamNumber;
 
@@ -57,13 +57,13 @@ public class StudentsTeam implements Iterable<StudentGroup>{
     };
   }
 //   @Override
-// public int compareTo(StudentGroup o) {
-    
-//     if (this.getSizeGroup() == o.getSizeGroup()) 
+// public int compareTo(StudentsTeam o) {
+//     System.out.println(this.getTeamNumber() + "-" + o.getTeamNumber());
+//     if (this.getTeamNumber() == o.getTeamNumber()) 
 //     {
 //         return 0;
 //     }
-//     if (this.getSizeGroup() < o.getSizeGroup()) 
+//     if (this.getTeamNumber() < o.getTeamNumber())
 //     {
 //         return -1;
 //     }
