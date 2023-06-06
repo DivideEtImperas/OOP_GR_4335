@@ -68,7 +68,15 @@ public class App {
 
         for(StudentGroup team:sTeam1){
             System.out.println(team.toString());
+            System.out.println("===================");
         }
-        // Collections.sort(sTeam1.);
+        Collections.sort(sTeam1.getTeam());
+        System.out.println("===================");
+        System.out.println("===================");
+        System.out.println("===================");
+        for (StudentGroup team: sTeam1) {
+            System.out.println(team.toString());
+            System.out.println("===================");
+        }
     }
 }

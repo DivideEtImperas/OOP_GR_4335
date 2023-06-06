@@ -3,7 +3,7 @@ package StudentDomen;
 import java.util.Iterator;
 import java.util.List;
 // реализует интерфейс Iterable,Comparable
-public class StudentGroup implements Iterable<Student>{
+public class StudentGroup implements Iterable<Student>, Comparable<StudentGroup>{
  /**
   * 
   */
@@ -98,9 +98,14 @@ public int getIdGroup() {
     // return new SGIterator(group);
   }
 
-    
+@Override
+public int compareTo(StudentGroup o) {
+    if (this.group.size() == o.group.size()) {
+        return 0;
+ }
+ if (this.group.size() < o.group.size()) {
+   return -1;
+ }
+ return 1;
 }
-
-
-
-
+}
