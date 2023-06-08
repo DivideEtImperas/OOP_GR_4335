@@ -89,12 +89,13 @@ public class App {
         Teacher t1 = new Teacher("Елена", "Иванова", 42, "Computer Science Teacher");
         Teacher t2 = new Teacher("Андрей", "Петров", 37, "Data Science Teacher");
         Teacher t3 = new Teacher("Света", "Смирнова", 46, "Programming Teacher");
-        List<Person> teacherList = new ArrayList<>();
-        teacherList.add(t1);
-        teacherList.add(t2);
-        teacherList.add(t3);
-        System.out.println(teacherList);
-        
+        List<Person> persons = new ArrayList<>();
+        persons.add(t1);
+        persons.add(t2);
+        persons.add(t3);
+        System.out.println(persons);
+        TeacherController techContr = new TeacherController();
+        techContr.averageAge(persons);
         // TeacherController.paySalary(t1);
         
     }
