@@ -40,13 +40,13 @@ public class App {
         listTeach.add(t1);
         listTeach.add(t2);
         listTeach.add(t3);
-        
+        System.out.println("=======================================");
         AverageAgeComparator<Person>techList = new AverageAgeComparator<Person>();
         techList.printAverageAge(listTeach, techList.averageAge(listTeach));
-        
+        System.out.println("=======================================");
         AverageAgeComparator<Person>studList = new AverageAgeComparator<Person>();
         studList.printAverageAge(listStud,studList.averageAge(listStud));
-
+        System.out.println("=======================================");
         AverageAgeComparator<Person>emplList = new AverageAgeComparator<Person>();
         emplList.printAverageAge(listEmpl,emplList.averageAge(listEmpl));
 
