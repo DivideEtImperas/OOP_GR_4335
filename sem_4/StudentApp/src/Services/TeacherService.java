@@ -9,9 +9,9 @@ import StudentDomen.Teacher;
 // Класс TeacherService с подключенным интерфейсом iPersonService
 public class TeacherService implements iPersonService<Teacher>{
   // private int count;
-  
-  private List<Teacher> teachers;
  
+  private List<Teacher> teachers;
+// Кт-ор класса TeacherService
   public TeacherService() {
     this.teachers = new ArrayList<Teacher>();
     

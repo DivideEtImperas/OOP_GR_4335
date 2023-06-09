@@ -1,10 +1,6 @@
 package Controllers;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import Services.TeacherService;
-import StudentDomen.AverageAgeComparator;
 import StudentDomen.Teacher;
 
 public class TeacherController implements iPersonController<Teacher> {

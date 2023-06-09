@@ -1,10 +1,6 @@
 package StudentDomen;
 
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-
-import Controllers.iPersonController;
 
 // Обобщенность
 public class AverageAgeComparator<T extends Person> {

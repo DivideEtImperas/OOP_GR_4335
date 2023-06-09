@@ -1,9 +1,9 @@
 package StudentDomen;
-
+/**
+ * Класс Student наследник класса Person
+ */
 public class Student extends Person implements Comparable<Student> {
-  /**
-   * 
-   */
+
   protected int id;
  /**
   * К-ор класса Student
@@ -40,7 +40,7 @@ public class Student extends Person implements Comparable<Student> {
         ", id=" + id +
         '}';
   }
-
+ // Метод сравнения
   @Override
   public int compareTo(Student o) {
     System.out.println(super.getFirstName() + " - " + o.getFirstName());

@@ -22,7 +22,7 @@ public class Employee extends Person {
   public void setSpecial(String special) {
     this.special = special;
   }
-
+ // переопределение метода базового класса
   @Override
   public String toString() {
     return "Employee[" +

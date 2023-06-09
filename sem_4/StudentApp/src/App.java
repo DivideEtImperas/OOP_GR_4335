@@ -1,15 +1,9 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-
-import Controllers.EmployeeController;
-import Controllers.TeacherController;
 import StudentDomen.AverageAgeComparator;
 import StudentDomen.Employee;
 import StudentDomen.Person;
 import StudentDomen.Student;
-import StudentDomen.StudentGroup;
-import StudentDomen.StudentsTeam;
 import StudentDomen.Teacher;
 
 public class App {

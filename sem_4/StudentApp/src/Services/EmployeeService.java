@@ -25,6 +25,7 @@ public class EmployeeService implements iPersonService<Employee> {
     employees.add(pers);
     
   }
+  // Сортировка ФИО
   public List<Employee> getSortedByFIOEmployeeList(){
     List<Employee> newEmployList = new ArrayList<Employee>(employees);
     newEmployList.sort(new PersonComparator<Employee>());

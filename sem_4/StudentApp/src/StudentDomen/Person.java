@@ -8,7 +8,6 @@ public class Person {
 
   /**
    * Конструктор класса Person
-   * 
    * @param firstName  Имя
    * @param secondName Фамилия
    * @param age        Возраст
