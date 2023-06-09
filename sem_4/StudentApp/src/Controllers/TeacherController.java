@@ -18,12 +18,5 @@ public class TeacherController implements iPersonController<Teacher> {
   static public <T extends Teacher> void paySalary(T person){
     System.out.println(person.getFirstName() + " выплачена зарплата 10000р.");
   }
-  // static public <T extends Teacher> int averageAge(T[]person){
-  //   int sum = 0;
-  //   for (int i = 0; i < T.size(); i++) {
-  //     sum = sum + person.getAge();  
-  //   }
-  //   sum = sum/person.getAge();
-  //   return sum;
-  // }
+ 
 }
