@@ -1,0 +1,6 @@
+1 : Student [firstName=Сергей, secondName=Иванов, age=21]
+2 : Student [firstName=Андрей, secondName=Сидоров, age=22]
+3 : Student [firstName=Иван, secondName=Петров, age=22]
+4 : Student [firstName=Игорь, secondName=Иванов, age=23]
+5 : Student [firstName=Даша, secondName=Цветкова, age=25]
+6 : Student [firstName=Лена, secondName=Незабудкина, age=23]
