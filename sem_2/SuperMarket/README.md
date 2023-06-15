@@ -1,18 +1,8 @@
-## Getting Started
+## Урок 2. Принципы ООП Абстракция и интерфейсы. Пример проектирования
+1) Добавить класс, описывающий акционного клиента. Включить поле название акции, id клиента и количество участников в акции(поле статическое)
+2) Добавить интерфейс iReturnOrder возврата товара. Продумать какие методы могут понадобиться и подключить интерфейс к классам клиентов.
+3) Добавить комментарии(javadoc) ко всем методам и интерфейсам.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+(задача со *)
+1) Реализовать отказ в обслуживании для акционного клиента при превышении участников акции
+2) Сохранить в файл лог работы магазина, включая возвраты товара(реализовать возврат нескольких товаров)
