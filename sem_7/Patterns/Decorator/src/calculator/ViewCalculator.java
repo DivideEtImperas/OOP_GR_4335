@@ -12,18 +12,28 @@ public class ViewCalculator {
     public void run() {
         while (true) {
             int primaryArg = promptInt("Введите первый аргумент: ");
-            calculator.sum(primaryArg);
+            calculator.add(primaryArg);
             // iCalculable calculator = calculableFactory.create(primaryArg);
             while (true) {
-                String cmd = prompt("Введите команду (*, +, =) : ");
+                String cmd = prompt("Введите команду (+, -, *, /, =) : ");
+                if (cmd.equals("+")) {
+                    int arg = promptInt("Введите второй аргумент: ");
+                    calculator.add(arg);
+                    continue;
+                }
+                if (cmd.equals("-")) {
+                    int arg = promptInt("Введите второй аргумент: ");
+                    calculator.sub(arg);
+                    continue;
+                }
                 if (cmd.equals("*")) {
                     int arg = promptInt("Введите второй аргумент: ");
                     calculator.multi(arg);
                     continue;
                 }
-                if (cmd.equals("+")) {
+                if (cmd.equals("/")) {
                     int arg = promptInt("Введите второй аргумент: ");
-                    calculator.sum(arg);
+                    calculator.div(arg);
                     continue;
                 }
                 if (cmd.equals("=")) {

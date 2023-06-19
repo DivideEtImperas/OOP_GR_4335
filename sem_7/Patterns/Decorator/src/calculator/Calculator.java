@@ -9,14 +9,24 @@ public final class Calculator implements iCalculable {
     }
 
     @Override
-    public iCalculable sum(int arg) {
+    public iCalculable add(int arg) {
         primaryArg += arg;
         return this;
     }
 
     @Override
+    public iCalculable sub(int arg) {
+        primaryArg -= arg;
+        return this;
+    }
+    @Override
     public iCalculable multi(int arg) {
         primaryArg *= arg;
+        return this;
+    }
+    @Override
+    public iCalculable div(int arg) {
+        primaryArg /= arg;
         return this;
     }
 

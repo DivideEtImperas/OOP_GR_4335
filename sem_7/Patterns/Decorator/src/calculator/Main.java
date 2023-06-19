@@ -19,7 +19,6 @@ public class Main {
         ViewComplexCalc viewComplexCalc = new ViewComplexCalc(complexCalc);
         // viewComplexCalc.run();
 
-        while (true) {
             Scanner iScanner = new Scanner(System.in);
             String key = iScanner.nextLine();
 
@@ -32,8 +31,6 @@ public class Main {
                     break;
                 default:
                     break;
-
-            }
 
         }
 

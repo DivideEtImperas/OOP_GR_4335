@@ -8,12 +8,21 @@ public class CalcDecorator implements iCalculable {
     }
 
      @Override
-    public iCalculable sum(int arg) {
+    public iCalculable add(int arg) {
         int firstArg = oldCalc.getResult();
         
-        logger.log(String.format("Первое значение калькулятора %d. Начало вызова метода sum с параметром %d", firstArg, arg));
-        iCalculable result = oldCalc.sum(arg);
-        logger.log(String.format("Вызова метода sum произошел"));
+        logger.log(String.format("Первое значение калькулятора %d. Начало вызова метода add с параметром %d", firstArg, arg));
+        iCalculable result = oldCalc.add(arg);
+        logger.log(String.format("Вызова метода add произошел"));
+        return result;
+    }
+    @Override
+    public iCalculable sub(int arg) {
+        int firstArg = oldCalc.getResult();
+        
+        logger.log(String.format("Первое значение калькулятора %d. Начало вызова метода sub с параметром %d", firstArg, arg));
+        iCalculable result = oldCalc.sub(arg);
+        logger.log(String.format("Вызова метода sub произошел"));
         return result;
     }
 
@@ -23,6 +32,15 @@ public class CalcDecorator implements iCalculable {
         logger.log(String.format("Первое значение калькулятора %d. Начало вызова метода multi с параметром %d", firstArg, arg));
         iCalculable result = oldCalc.multi(arg);
         logger.log(String.format("Вызова метода multi произошел"));
+        return result;
+    }
+    @Override
+    public iCalculable div(int arg) {
+        int firstArg = oldCalc.getResult();
+        
+        logger.log(String.format("Первое значение калькулятора %d. Начало вызова метода div с параметром %d", firstArg, arg));
+        iCalculable result = oldCalc.div(arg);
+        logger.log(String.format("Вызова метода div произошел"));
         return result;
     }
 
