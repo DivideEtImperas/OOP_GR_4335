@@ -19,18 +19,18 @@ public class Main {
         ViewComplexCalc viewComplexCalc = new ViewComplexCalc(complexCalc);
         // viewComplexCalc.run();
 
-            Scanner iScanner = new Scanner(System.in);
-            String key = iScanner.nextLine();
+        Scanner iScanner = new Scanner(System.in);
+        String key = iScanner.nextLine();
 
-            switch (key) {
-                case "1":
-                    view.run();
-                    break;
-                case "2":
-                    viewComplexCalc.run();
-                    break;
-                default:
-                    break;
+        switch (key) {
+            case "1":
+                view.run();
+                break;
+            case "2":
+                viewComplexCalc.run();
+                break;
+            default:
+                break;
 
         }
 
